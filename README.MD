@@ -14,6 +14,7 @@ DB_NAME=mysql
 ## Запуск приложения
 Запустите команды
 ```
+pip install -r requirements.txt
 flask db upgrade head
 flask run
 ```
